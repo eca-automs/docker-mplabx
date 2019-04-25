@@ -19,7 +19,7 @@ RUN dpkg --add-architecture i386 \
 #     && rm /tmp/xc16.run
 # ENV PATH /opt/microchip/xc16/v1.25/bin:$PATH
 
-ENV MPLABX_VERSION 3.55
+ENV MPLABX_VERSION 5.15
 
 # Download and install MPLAB X IDE
 # Use url: http://www.microchip.com/mplabx-ide-linux-installer to get the latest version
